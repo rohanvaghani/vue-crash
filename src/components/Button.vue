@@ -13,7 +13,7 @@ export default {
     },
     methods: {
         onClick() {
-            console.log("CLICK");
+            this.$emit('btn-click')
         }
     }
 }
